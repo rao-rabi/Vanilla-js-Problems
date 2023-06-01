@@ -64,7 +64,7 @@ const knowdlege = ['Javascript', 'PHP', 'REACT', 'Angular 4'];
 let married = false;
 
 // Part # 4:
-// We have div, and if the user clicks on it, will get a cupcake with an amount to pay and the order number.Refactor the code to meet ES6 standards.
+// We have div, and if the user clicks on it, will get a cupcake with an amount to pay and the order number.
 
 
 let cupcake = document.getElementById('cupcake');
