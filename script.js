@@ -1,5 +1,6 @@
-// We need to calculate how many Km or Miles the user traveled.
 // Part # 1:
+// We need to calculate how many Km or Miles the user traveled.
+
 const trips = [
     { to: 'Brazil', distance: 1000 },
     { to: 'China', distance: 2500 },
