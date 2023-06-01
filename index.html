@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .img-cupcake {
+            object-fit: cover;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+
+        <!-- part-1 -->
+
+        <div>
+            <div id="distance" style="border: 2px solid red; width: 500px; height: 100px; margin-bottom: 5px;"></div>
+            <button type="button" onclick="distanceTravelled()"
+                style="padding: 10px 20px; font-size: 20px; color:aqua; background-color: red; font-weight: bold;">Calculate
+                Distance</button><br><br>
+        </div>
+
+        <!-- part-2 -->
+
+        <div style="margin-left:20px ;">
+            <div id="compCount" style="border: 2px solid red; width: 500px; height: 100px; margin-bottom: 5px;"></div>
+            <button type="button" onclick="countMac()"
+                style="padding: 10px 20px; font-size: 20px; background-color:red; color: aqua; font-weight: bold;">Calculate
+                Mac OS</button>
+            <button type="button" onclick="countWin()"
+                style="padding: 10px 20px; font-size: 20px; background-color:red; color: aqua; font-weight: bold;">Calculate
+                Windows OS</button>
+        </div>
+    </div>
+
+    <!-- part-4 -->
+
+    <div style="display: flex; justify-content: center;">
+        <p id="cupcake"
+            style="color: aqua; background-color: red; font-size: 30px; font-weight: bold; width: fit-content; padding: 1%;">
+            Get a random cupcake with a random price</p>
+    </div>
+    <div id="orders"></div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
